@@ -1,8 +1,18 @@
 Códigos do git passo a passo para clonar e depois retornar novamente o código
 
-git status = estado daquela pasta, se mudamos algo mais não comitamos vai aparecer no terminal uma lista vermelha dizendo que a pasta foi identificada mas devemos comitar a mudança feita.
-
-git add. = faz as alteraçães ser comitada e assim ela é identificada no meu computador mas nãa ainda no github.
-
 1- Para clonar basta ir no referido repositório code/ copiar o link https ou a chave ssh, voltar no terminal do git bash digitar git clone e colar o link, lebrando que o repositório será criado na pasta que estamos trabalhando no terminal.
+
+2- Assim que mexemos no codigo devemos seguir esses passos para empurrar novamente o código para a nuvem.
+
+a) git status = Estado daquela pasta, se mudamos algo mais não comitamos vai aparecer no terminal uma lista vermelha dizendo que a pasta foi alterada mas não foi identificada nem comitada as mudanças feita.
+
+b) git add. = Faz as alteraçães ser adicionada e assim ela é identificada no meu computador mas não ainda no github.
+
+c) git commit -m "o que foi alterado no commit" = Faz 
+a autenticação do commit e ele fica pronta para ser empurrado para a nuvem.
+
+d) git push origin main = Empurra o projeto com as novas alterações para a nuvem.
+
+3- É só seguir esses passos que tudo dar certo (Agradeço a sua atenção, abrigado!)	
+
 
